@@ -40,4 +40,4 @@ pigeon_data = {
   }
 }
 
-p find_pigeon("Andrew",pigeon_data[:color])
+create_pigeonbase(pigeon_data)
