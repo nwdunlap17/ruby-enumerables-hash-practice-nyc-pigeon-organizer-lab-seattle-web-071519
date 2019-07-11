@@ -1,4 +1,5 @@
 def nyc_pigeon_organizer(data)
+  
 end
 
 def create_pigeonbase(data)
@@ -8,6 +9,9 @@ def create_pigeonbase(data)
   end
   data[:gender][:female].each do |name|
     pigeon_list[name] = {:gender => ["female"]}
+  end
+  pigeon_list.each do [obj]
+    p obj
   end
   return pigeon_list
 end
