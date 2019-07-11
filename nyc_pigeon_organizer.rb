@@ -7,7 +7,7 @@ def find_pigeon(lookup,hash2)
   hash2.each do |key,names|
     names.each do |name|
       if(name == lookup)
-        return "#{key}""
+        return "#{key}"
       end
     end
   end
