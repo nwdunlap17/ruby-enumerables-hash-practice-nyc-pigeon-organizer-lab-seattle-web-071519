@@ -4,12 +4,8 @@ end
 
 
 def find_pigeon(lookup,hash2)
-  p "hash2: #{hash2}"
   hash2.each do |key,names|
-    p "key: #{key}"
-    p "value: #{names}"
     names.each do |name|
-      p name
       if(name == lookup)
         return key
       end
