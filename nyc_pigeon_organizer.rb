@@ -5,9 +5,12 @@ end
 
 def look_in_nested_hash(lookup,hash2)
   p "hash2: #{hash2}"
-  hash2.each do |key,value|
+  hash2.each do |key,names|
     p "key: #{key}"
-    p "value: #{value}"
+    p "value: #{names}"
+    names.each do |name|
+      p name
+    end
   end
   return "FAILED"
 end
