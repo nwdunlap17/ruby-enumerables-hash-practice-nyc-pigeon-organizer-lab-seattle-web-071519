@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
   pigeon_list = create_pigeonbase(data)
   pigeon_list.each_key do |pigeon|
     pigeon_list[pigeon][:color] = find_pigeon(pigeon,data[:color])
-    pigeon_list[pigeon][:color] = find_pigeon(pigeon,data[:color])
+    pigeon_list[pigeon][:lives] = find_pigeon(pigeon,data[:lives])
   end
   return pigeon_list
 end
