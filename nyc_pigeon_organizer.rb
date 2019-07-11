@@ -9,7 +9,7 @@ def look_in_nested_hash(lookup,hash2)
   p "hash: #{hash}"
     hash.each do |name|
       if name == lookup
-        return name
+        return hash
       end
     end
   end
