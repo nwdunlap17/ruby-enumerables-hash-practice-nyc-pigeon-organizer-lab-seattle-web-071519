@@ -10,7 +10,7 @@ def create_pigeonbase(data)
   data[:gender][:female].each do |name|
     pigeon_list[name] = {:gender => ["female"]}
   end
-  pigeon_list.each do |obj|
+  pigeon_list.each_key do |obj|
     p obj
   end
   return pigeon_list
