@@ -8,7 +8,7 @@ def look_in_nested_hash(lookup,hash2)
   hash2.each do |hash|
   p "hash: #{hash}"
     hash.each do |name|
-      p "name: #{name[0]}"
+      p "name: #{name}"
       if name[0] == lookup
         p "this hash: #{hash}"
         return hash
