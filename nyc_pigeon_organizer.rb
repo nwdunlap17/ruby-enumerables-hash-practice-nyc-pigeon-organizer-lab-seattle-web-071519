@@ -7,7 +7,7 @@ def look_in_nested_hash(lookup,hash2)
   p "hash2: #{hash2}"
   hash2.each do |hash|
     p "hash: #{hash}"
-      hash.each_value do |name|
+      hash.each_slice do |name|
       end
   end
   return "FAILED"
