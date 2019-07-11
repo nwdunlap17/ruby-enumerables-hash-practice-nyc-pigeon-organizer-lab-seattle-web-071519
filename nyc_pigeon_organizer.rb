@@ -37,4 +37,4 @@ pigeon_data = {
   }
 }
 
-p look_in_nested_hash("Andrew",pigeon_data[:color])
+p find_pigeon("Andrew",pigeon_data[:color])
