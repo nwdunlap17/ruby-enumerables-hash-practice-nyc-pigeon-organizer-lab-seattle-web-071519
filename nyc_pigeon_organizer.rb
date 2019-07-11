@@ -30,5 +30,4 @@ pigeon_data = {
   }
 }
 
-print "output:"
 p look_in_nested_hash("Luca",pigeon_data[:color])
