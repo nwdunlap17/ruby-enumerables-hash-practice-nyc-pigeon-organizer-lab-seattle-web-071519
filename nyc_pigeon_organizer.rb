@@ -5,7 +5,7 @@ end
 
 def look_in_nested_hash(lookup,hash2)
   p "hash2: #{hash2}"
-  hash2.each_pair do |hash|
+  hash2.each do |hash|
     p "hash: #{hash}"
   end
   return "FAILED"
