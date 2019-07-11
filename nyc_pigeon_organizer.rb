@@ -6,7 +6,8 @@ end
 def look_in_nested_hash(lookup,hash2)
   p "hash2: #{hash2}"
   hash2.each do |key,value|
-    p "hash: #{hash}"
+    p "key: #{key}"
+    p "value: #{value}"
   end
   return "FAILED"
 end
