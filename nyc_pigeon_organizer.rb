@@ -30,4 +30,5 @@ pigeon_data = {
   }
 }
 
-p "output:"+look_in_nested_hash("Luca",pigeon_data[:color])
+print "output:"
+p look_in_nested_hash("Luca",pigeon_data[:color])
