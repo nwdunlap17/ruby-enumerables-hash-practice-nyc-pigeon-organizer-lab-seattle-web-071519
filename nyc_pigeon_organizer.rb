@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
 end
 
 
-def look_in_nested_hash(lookup,hash2)
+def find_pigeon(lookup,hash2)
   p "hash2: #{hash2}"
   hash2.each do |key,names|
     p "key: #{key}"
