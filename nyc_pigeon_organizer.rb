@@ -4,7 +4,7 @@ end
 
 def create_pigeonbase(data)
   pigeon_list = {}
-  data[:gender].each do |list|
+  data[:gender][:male].each do |list|
     p list
   end
 end
