@@ -30,4 +30,4 @@ pigeon_data = {
   }
 }
 
-p look_in_nested_hash("Lola",pigeon_data[:color])
+p look_in_nested_hash("Luca",pigeon_data[:color])
