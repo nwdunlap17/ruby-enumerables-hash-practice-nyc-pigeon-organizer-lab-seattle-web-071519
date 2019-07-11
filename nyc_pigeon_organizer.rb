@@ -1,5 +1,4 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
 end
 
 def create_pigeonbase(data)
@@ -7,6 +6,10 @@ def create_pigeonbase(data)
   data[:gender][:male].each do |name|
     pigeon_list[name] = {:gender => ["male"]}
   end
+  data[:gender][:female].each do |name|
+    pigeon_list[name] = {:gender => ["female"]}
+  end
+  return pigeon_list
 end
 
 def find_pigeon(lookup,hash2)
