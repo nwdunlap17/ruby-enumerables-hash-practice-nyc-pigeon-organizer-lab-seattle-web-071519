@@ -52,4 +52,4 @@ pigeon_data = {
   }
 }
 
-p nyc_pigeon_organizer
+p nyc_pigeon_organizer(pigeon_data)
