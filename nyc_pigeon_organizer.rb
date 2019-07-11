@@ -2,6 +2,12 @@ def nyc_pigeon_organizer(data)
   # write your code here!
 end
 
+def create_pigeonbase(data)
+  pigeon_list = {}
+  data[:gender].each do |list|
+    p list
+  end
+end
 
 def find_pigeon(lookup,hash2)
   # Given a hash category, finds which category the named pigeon belongs to and returns it as string 
