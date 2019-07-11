@@ -14,6 +14,7 @@ def look_in_nested_hash(lookup,hash2)
       end
     end
   end
+  return "FAILED"
 end
 
 pigeon_data = {
