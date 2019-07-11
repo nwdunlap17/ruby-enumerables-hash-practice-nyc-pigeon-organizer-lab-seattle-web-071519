@@ -23,14 +23,15 @@ end
 
 def find_pigeon(lookup,hash2)
   # Given a hash category, finds which category the named pigeon belongs to and returns it as string 
+  array = []
   hash2.each do |key,names|
     names.each do |name|
       if(name == lookup)
-        return "#{key}"
+        array << "#{key}"
       end
     end
   end
-  return "FAILED"
+  return array
 end
 
 pigeon_data = {
